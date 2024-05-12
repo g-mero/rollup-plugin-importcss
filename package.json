@@ -1,0 +1,37 @@
+{
+  "name": "rollup-plugin-importcss",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "version": "0.1.0",
+  "description": "A Rollup plugin to import css/scss as string",
+  "type": "module",
+  "author": "Gmero <gmerocom@gmail.com>",
+  "homepage": "https://github.com/g-mero/rollup-plugin-importcss",
+  "scripts": {
+    "build": "bun run bun.build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@xbmlz/eslint-config-prettier": "^0.1.17",
+    "@xbmlz/eslint-config-ts": "^0.1.17",
+    "bun-plugin-dts": "^0.2.3",
+    "eslint": "^8.57.0",
+    "rollup": "^4.17.2",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-typescript": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.0",
+    "browserslist": "^4.23.0",
+    "lightningcss": "^1.24.1",
+    "sass": "^1.77.1",
+    "tosource": "^2.0.0-alpha.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
