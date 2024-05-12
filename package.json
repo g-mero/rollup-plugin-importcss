@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-importcss",
+  "name": "rollup-plugin-style-import",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "version": "0.1.0",
